@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro; 
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     // Rigidbody of the player.
     private Rigidbody rb;
 
-    //Variable to keep track of collected "pick up" objects.
+    //Variable to keep track of collected "pick up" objects. 
     private int count;
 
     // Movement along X and Y axes.
@@ -54,8 +54,8 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         // Create a 3D movement vector using the X and Y inputs
-        Vector3 movement = new Vector3 (movementX, 0.0f, movementY);
-        
+        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+
         // Apply force to the Rigidbody to move the player.
         rb.AddForce(movement * speed);
     }
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
 
             // Update the count display.
             SetCountText();
-        } 
+        }
     }
 
     // Function to update the displayed count of "pick up" objects collected. 
@@ -100,8 +100,9 @@ public class PlayerController : MonoBehaviour
             // Update the winText to display "You Lose!"
             winTextObject.gameObject.SetActive(true);
             winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose! Press 'R' to Restart!";
-            winTextObject.gameObject.SetActive(true);
-            winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose! Press 'R' to Restart!";
+            //winTextObject.gameObject.SetActive(true);
+            //winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose! Press 'R' to Restart!"; 
         }
     }
+
 }
