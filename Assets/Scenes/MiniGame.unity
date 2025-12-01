@@ -4436,6 +4436,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 3f064649d717b1b43928943a0ab9b659, type: 2}
+    - target: {fileID: -745640677707635295, guid: bf186ae0c211e3b46b8c3cf9bc7b1d27, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.101
+      objectReference: {fileID: 0}
+    - target: {fileID: -745640677707635295, guid: bf186ae0c211e3b46b8c3cf9bc7b1d27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -122.027
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bf186ae0c211e3b46b8c3cf9bc7b1d27, type: 3}
       propertyPath: m_Name
       value: (Msh)OfficeChair
@@ -5663,7 +5671,7 @@ Transform:
   m_GameObject: {fileID: 803044593}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000011291792, y: -7.7710004e-15, z: -0.00000006881991, w: 1}
-  m_LocalPosition: {x: -10.402424, y: 4.080391, z: -28.35}
+  m_LocalPosition: {x: -10.402424, y: 4.080391, z: -31.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6029,6 +6037,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f99126b2de167a44f84adc255bb688c5, type: 3}
       propertyPath: m_Name
       value: (Msh)BookOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292456288500702498, guid: f99126b2de167a44f84adc255bb688c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.022
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292456288500702498, guid: f99126b2de167a44f84adc255bb688c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -122.104
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7082,6 +7098,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 3a7edd718ac0f5645975251a455cd9e5, type: 2}
+    - target: {fileID: -7343603758889614493, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.759
+      objectReference: {fileID: 0}
+    - target: {fileID: -4742959295004202941, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.772
+      objectReference: {fileID: 0}
     - target: {fileID: -2945696510946403510, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -7109,6 +7133,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
       propertyPath: m_Name
       value: (Msh)PenHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3842836783381707726, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.774
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427990052470984611, guid: 3a3cfcf7e16d943438d2bae99ffa6534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.796
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14041,6 +14073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: (Msh)DeskPlant
       objectReference: {fileID: 0}
+    - target: {fileID: 1655891679225819429, guid: 3978e0eca0f17684d8cd75e9959471bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.109
+      objectReference: {fileID: 0}
     - target: {fileID: 8099024880405314499, guid: 3978e0eca0f17684d8cd75e9959471bb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -14317,6 +14353,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 77936498f95548e4f81bd32e9a802098, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6749670090728572648, guid: 77936498f95548e4f81bd32e9a802098, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -6749670090728572648, guid: 77936498f95548e4f81bd32e9a802098, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: -6499277291225701463, guid: 77936498f95548e4f81bd32e9a802098, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -19796,7 +19840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3502397774781651274, guid: 4166124de65a6a048a57ccfe882a42b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.3
+      value: 3.81
       objectReference: {fileID: 0}
     - target: {fileID: 3502397774781651274, guid: 4166124de65a6a048a57ccfe882a42b1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19804,7 +19848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3502397774781651274, guid: 4166124de65a6a048a57ccfe882a42b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -35.9
+      value: -30.71
       objectReference: {fileID: 0}
     - target: {fileID: 3502397774781651274, guid: 4166124de65a6a048a57ccfe882a42b1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19921,7 +19965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1940770955
 MeshCollider:
   m_ObjectHideFlags: 0
