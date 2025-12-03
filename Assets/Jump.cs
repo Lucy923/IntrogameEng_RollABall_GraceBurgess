@@ -10,7 +10,7 @@ public class Jump : MonoBehaviour
         Rigidbody rb = other.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.velocity = Vector3.zero; // Reset current velocity for consistency
+            rb.linearVelocity = Vector3.zero; // Reset current velocity for consistency
             rb.AddForce(launchDirection.normalized * jumpForce, ForceMode.VelocityChange);
         }
     }
